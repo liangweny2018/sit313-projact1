@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_pay_category"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/book_category"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:textColor="#000000"
+            android:text="type of book" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="22dp"
+            android:layout_toRightOf="@+id/book_category"
+            android:background="@null"
+            android:id="@+id/tv_book_category_info"
+            android:gravity="center_vertical"
+            android:maxLength="40"
+            android:maxLines="1"
+            android:paddingLeft="7dp"
+            android:text="choose the type of book"
+            android:textColor="#696969"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="#000000"
+            android:text="bookName" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:id="@+id/bookName"
+            android:gravity="center_vertical"
+            android:hint="please input bookName"
+            android:textColorHint="#696969"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingLeft="7dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="#000000"
+            android:text="author" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:id="@+id/author"
+            android:gravity="center_vertical"
+            android:hint="please input author"
+            android:textColorHint="#696969"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingLeft="7dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="#000000"
+            android:text="publishing_house" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:id="@+id/publishing_house"
+            android:gravity="center_vertical"
+            android:hint="please input publishing house"
+            android:textColorHint="#696969"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingLeft="7dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirmsell"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="6dp"
+        android:text="submit"
+        android:textSize="18sp" />
+</LinearLayout>

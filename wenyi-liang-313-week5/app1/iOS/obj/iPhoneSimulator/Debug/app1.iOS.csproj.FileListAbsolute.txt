@@ -1,0 +1,14 @@
+/Users/wenyiliang/Projects/app1/iOS/bin/iPhoneSimulator/Debug/app1.iOS.exe
+/Users/wenyiliang/Projects/app1/iOS/bin/iPhoneSimulator/Debug/app1.iOS.pdb
+/Users/wenyiliang/Projects/app1/iOS/bin/iPhoneSimulator/Debug/app1.dll
+/Users/wenyiliang/Projects/app1/iOS/bin/iPhoneSimulator/Debug/app1.pdb
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/app1.iOS.csprojResolveAssemblyReference.cache
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/app1.iOS.csproj.CoreCompileInputs.cache
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/app1.iOS.exe
+/Users/wenyiliang/Projects/app1/iOS/obj/iPhoneSimulator/Debug/app1.iOS.pdb

@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{247B91E7-ADD5-4507-8073-949C1A30359D}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Droid/ChooseActivity.cs" Line="34" Column="49" />
+      <File FileName="Droid/BuyBookActivity.cs" Line="24" Column="1" />
+      <File FileName="Droid/sellbookActivity.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.app1.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E469A9F0-099C-4341-8A20-C70B2A61BD48">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.app1.iOS>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.app1.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

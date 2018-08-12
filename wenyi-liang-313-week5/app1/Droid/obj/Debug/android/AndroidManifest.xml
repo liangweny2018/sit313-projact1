@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.project1.app1">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="app1" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <activity android:icon="@mipmap/icon" android:label="app1" android:name="md5c4b23d4835b06df4d76e879db8cd8021.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="ChooseActivity" android:name="md5c4b23d4835b06df4d76e879db8cd8021.ChooseActivity" />
+    <activity android:label="RegisterActivity" android:name="md5c4b23d4835b06df4d76e879db8cd8021.RegisterActivity" />
+    <activity android:label="BuyBookActivity" android:name="md5c4b23d4835b06df4d76e879db8cd8021.BuyBookActivity" />
+    <activity android:label="SellBookActivity" android:name="md5c4b23d4835b06df4d76e879db8cd8021.SellBookActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.project1.app1.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.project1.app1" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
